@@ -1,0 +1,31 @@
+.heading {
+    font-size: 280%;
+    font-weight: 500;
+    margin: 0% 0% 0% 0%;
+}
+.heading2{
+    font-size: 300%;
+    margin-top: -1%;
+}
+
+.heading3 {
+    font-size: 320%;
+    /* margin: 0% 0% 0% 0%; */
+    margin-top: -5%;
+}
+
+.info {
+    font-size: 150%;
+    font-weight: 300;
+    color: white;
+    /* width: 80%; */
+    margin-top: -4%;
+    
+}
+
+h3 {
+    font-size: 200%;
+    text-align: left;
+    margin-left:5%;
+    font-family: "Saira";
+}

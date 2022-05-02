@@ -1,0 +1,25 @@
+.projectHeading {
+  font-size: 150%;
+}
+.projectHeading2 {
+  font-size: 250%;
+  /* margin-top: -2%; */
+  font-weight: 800;
+}
+
+.project-Info {
+  font-size: 100%;
+  text-align: left;
+  font-family: "Roboto";
+  width: 100%;
+  /* margin-top: -2%; */
+  align-items: flex-start;
+}
+@media screen and (max-width: 600px) {
+  .projectHeading {
+    font-size: 100%;
+  }
+  .projectHeading2 {
+    font-size: 200%;
+  }
+}

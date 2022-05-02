@@ -1,0 +1,127 @@
+.serviceHeading {
+    font-size: 300%;
+    font-weight: 600;
+    margin: 0% 0% 0% 0%;
+    text-align: center;
+    
+}
+
+.serviceHeading2 {
+    font-size: 400%;
+    font-weight: 600;
+    margin: 0% 0% 0% 0%;
+
+}
+
+.serviceInfo {
+    color: white;
+    font-size: 150%;
+    font-weight: 300;
+
+}
+
+
+.napImage {
+    width: 20%;
+}
+
+.capImage {
+    width: 20%;
+}
+.folderImage {
+    width: 20%;
+}
+
+.servicePara {
+font-size: 150%;
+font-weight: 500;
+}
+
+.servicePara1 {
+    font-size: 200%;
+    font-family: "Saira";
+    /* font-weight: 200; */
+    color: white;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    margin-top: -2%;
+    }
+
+.servicePara2{
+    font-size: 100%;
+    font-family: "Saira";
+    font-weight: 200;
+    color: white;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+}    
+    
+
+@media screen and (max-width:600px) {
+    
+    .serviceHeading {
+        font-size: 170%;
+        font-weight: 600;
+        margin: 0% 0% 0% 0%;
+        text-align: center;
+        
+    }
+    
+    .serviceHeading2 {
+        font-size: 190%;
+        font-weight: 600;
+        margin: 0% 0% 0% 0%;
+    
+    }
+    .serviceInfo {
+        color: white;
+        font-size: 95%;
+        font-weight: 300;
+    
+    }
+    .napImage {
+        width: 50%;
+    }
+    
+    .capImage {
+        width: 50%;
+    }
+    .folderImage {
+        width: 50%;
+    }
+
+
+    .servicePara {
+        font-size: 100%;
+        font-weight: 500;
+        }
+        
+        .servicePara1 {
+            font-size: 150%;
+            font-family: "Saira";
+            /* font-weight: 200; */
+            color: white;
+            margin: 0% 0% 0% 0%;
+            padding: 0% 0% 0% 0%;
+            margin-top: -2%;
+            }
+        
+        .servicePara2{
+            font-size: 90%;
+            font-family: "Saira";
+            font-weight: 200;
+            color: white;
+            margin: 0% 0% 0% 0%;
+            padding: 0% 0% 0% 0%;
+        }    
+          
+
+
+
+
+    /* *{
+        background-color: aqua;
+    } */
+    
+}
+

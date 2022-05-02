@@ -1,0 +1,32 @@
+.heading {
+    font-size: 350%;
+    width: 70%;
+}
+
+.heading-info {
+    width: 70%;
+    font-size: 120%;
+}
+
+.img-home {
+    width: 35%;
+}
+
+
+
+@media screen and (max-width:600px) {
+     
+    
+    .heading {
+         font-size: 210%;
+         width: 90%;
+         /* width: 2000%; */
+     }
+     .heading-info {
+         width: 100%;
+         font-size: 90%;
+     }
+     .img-home {
+        width: 80%;
+    }
+}

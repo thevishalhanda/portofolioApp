@@ -1,0 +1,51 @@
+.heading {
+    font-size: 270%;
+    font-weight: 500;
+    margin: 0% 0% 0% 0%;
+}
+.heading2{
+    font-size: 350%;
+    margin-top: -1%;
+}
+
+.heading3 {
+    font-size: 370%;
+    /* margin: 0% 0% 0% 0%; */
+    margin-top: -6%;
+}
+.info {
+    font-size: 150%;
+    font-weight: 300;
+    color: white;
+    /* width: 80%; */
+    margin-top: -4%;
+    
+}
+
+
+@media screen and (max-width:600px) {
+    .heading {
+        font-size: 150%;
+        font-weight: 500;
+        margin-top: -5%;
+        margin: 0% 0% 0% 0%;
+    }
+    .heading2{
+        font-size: 190%;
+        margin-top: -1%;
+    }
+    
+    .heading3 {
+        font-size: 250%;
+        /* margin: 0% 0% 0% 0%; */
+        margin-top: -12%;
+    }
+    .info {
+        font-size: 110%;
+        font-weight: 300;
+        color: white;
+        /* width: 80%; */
+        margin-top: -4%;
+        
+    }
+}
