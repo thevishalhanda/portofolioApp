@@ -13,20 +13,22 @@ const HomePage = () => {
         <Grid items xs={12} sx={12} md={11} lg={11} align="center">
           <Card elevation={0} style={cardStyle.type}>
             <CardContent>
-              <p
+              <div className = "HomePage-container">
+
+              <h2
                 //  variant = "h3"
                 className="heading"
-                style={headingStyle.type}
+                // style={headingStyle.type}
               >
                 {" "}
                 I’ve been a UX designer since before it was called that (7,783
                 days to be exact)
-              </p>
+              </h2>
 
-              <p
+              <h3
                 //  variant = "h3"
                 className="heading-info"
-                style={headingStyle.type1}
+                // style={headingStyle.type1}
               >
                 Flash, spacer GIFs, tables, system fonts... remember all that?
                 If you do, you’re old—but back then you had to know how to code
@@ -45,8 +47,10 @@ const HomePage = () => {
                 <br />
                 Banfield Agency, in Ottawa, Canada, is where I currently design
                 digital experiences across a
-              </p>
-              <img className="img-home" src = {homeImage} alt = "" style = {imageStyle.type} />
+              </h3>
+              <img  src = {homeImage} alt = "" style = {imageStyle.type} />
+              </div>
+            
             </CardContent>
           </Card>
         </Grid>

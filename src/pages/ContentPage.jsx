@@ -21,39 +21,31 @@ const ContentPage = () => {
             <br />
         <br />
         <br />
-               <p
-               className="heading"
-               style={headingStyle.type4}
-               >Content and Blogs</p>
-              <p
-              className="heading2"
-              style = {headingStyle.type4}
-              >agencies and unreliable
-              </p>
-              <p
-              className="heading3"
-              style = {headingStyle.type4}
-              >Journey
-              </p>
-
-              <p
-              className="info"
-            //   style={headingStyle.type5}
-              >
-              Agencies are slow, expensive and hard to work with. Flowjam provides super-quick,
- <br /> responsive Webflow designs and development Webflow designs and 
-              </p>
-              <br />
+        <div className="headingfor-Content">
+          <h1>
+          Content and Blogs
+          </h1>
+          <h2>
+          agencies and unreliable
+          </h2>
+          <h3>
+          Journey
+          </h3>
+          <h4 className="info-forContentPage">
+                Agencies are slow, expensive and hard to work with. Flowjam
+                provides super-quick,
+                <br />
+                responsive Webflow designs and development Webflow designs and .
+                k, responsive Webflow designs and deve
+              </h4>
+        </div>
+               <br />
              
              
         <ContentList />
         <ContentList />
         <ContentList />
-
-
-
-
-            </CardContent>
+        </CardContent>
             </Card>
             </Grid>
             </Grid>

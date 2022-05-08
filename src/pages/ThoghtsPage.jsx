@@ -12,6 +12,7 @@ import { cardStyle } from "../global/cardStyle";
 import { headingStyle } from "../global/typography";
 import "../global/css/thoughts.css";
 import homeImage from "../global/images/homeImage.png";
+import heartImage from "../global/images/heartImage.png"
 
 const ThoughtsPage = () => {
   return (
@@ -37,34 +38,15 @@ const ThoughtsPage = () => {
                 <br />
                 responsive Webflow designs and development Webflow designs and .
               </p>
-
-              <div className="btn-Collection">
-                <TextField
-                  size="small"
-                  variant="outlined"
-                  style={{
-                    background: "white",
-                    width: "20%",
-                  }}
-                  innerProps = {{
-                      fontSize:"20px"
-                  }}
-                />
-                <Button
-                style = {{
-                    background:"purple",
-                    height:"6.2vh",
-                    border:"0px",
-                    marginLeft:"-2%",
-                    color:"white",
-                    fontFamily:"Saira"
-
-
-                }}
-                >
-                   Subscribe
-                </Button>
-              </div>
+             
+             <div className="subscribe-btn">
+               <input /> 
+               <button>Subscribe</button>
+              
+              <h4> Website made by <img src = {heartImage} /> &  Vishal Handa </h4>
+              
+             </div>
+                
             </CardContent>
           </Card>
         </Grid>

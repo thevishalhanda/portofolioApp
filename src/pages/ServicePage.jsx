@@ -38,7 +38,7 @@ const ServicePage = () => {
               <p className="servicePara" style={headingStyle.type4}>
                 {" "}
                 01 / Backend
-              </p>
+              </p> <br />
               <p className="servicePara1"> Expert Webflow development. </p>
               <p className="servicePara2">
                 Agencies are slow, expensive and hard to work with. Flowjam
@@ -54,7 +54,7 @@ const ServicePage = () => {
               <p className="servicePara" style={headingStyle.type4}>
                 {" "}
                 02 / Desiging
-              </p>
+              </p>  <br />
               <p className="servicePara1"> Expert Webflow development. </p>
               <p className="servicePara2">
                 Agencies are slow, expensive and hard to work with. Flowjam
@@ -70,7 +70,7 @@ const ServicePage = () => {
               <p className="servicePara" style={headingStyle.type4}>
                 {" "}
                 03 / Frontend
-              </p>
+              </p>  <br />
               <p className="servicePara1"> Expert Webflow development. </p>
               <p className="servicePara2">
                 Agencies are slow, expensive and hard to work with. Flowjam

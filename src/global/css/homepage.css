@@ -1,32 +1,44 @@
-.heading {
-    font-size: 350%;
+.HomePage-container h2 {
     width: 70%;
+    font-size: 320%;
+    font-family: "Righteous";
+    margin-top: 5%;
 }
 
-.heading-info {
+.HomePage-container h3 {
     width: 70%;
     font-size: 120%;
+    margin-top: 2%;
+    color:white;
+    font-weight: 350;
+    text-align: center;
 }
 
-.img-home {
-    width: 35%;
+.HomePage-container img {
+    width: 36%;
 }
-
-
 
 @media screen and (max-width:600px) {
      
     
-    .heading {
-         font-size: 210%;
-         width: 90%;
-         /* width: 2000%; */
-     }
-     .heading-info {
-         width: 100%;
-         font-size: 90%;
-     }
-     .img-home {
+    .HomePage-container h2 {
+        width: 100%;
+        font-size: 220%;
+        font-family: "Righteous";
+        margin-top: 5%;
+    }
+
+    .HomePage-container h3 {
+        width: 100%;
+        font-size: 100%;
+        margin-top: 3%;
+        color:white;
+        font-weight: 350;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .HomePage-container img {
         width: 80%;
     }
 }

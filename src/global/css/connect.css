@@ -1,31 +1,105 @@
-.heading {
-    font-size: 280%;
-    font-weight: 500;
-    margin: 0% 0% 0% 0%;
-}
-.heading2{
-    font-size: 300%;
-    margin-top: -1%;
-}
-
-.heading3 {
-    font-size: 320%;
-    /* margin: 0% 0% 0% 0%; */
-    margin-top: -5%;
-}
-
-.info {
-    font-size: 150%;
+.connect-Style h1 {
+    font-size:270%;
     font-weight: 300;
-    color: white;
-    /* width: 80%; */
-    margin-top: -4%;
-    
+    font-family: "Saira";
+
 }
 
-h3 {
-    font-size: 200%;
-    text-align: left;
-    margin-left:5%;
+.connect-Style h2  {
+    font-size: 300%;
+    font-weight: 300;
     font-family: "Saira";
+    margin-top: -1%;
+
+}
+
+.connect-Style h3  {
+    font-size: 310%;
+    font-weight: 300;
+    font-family: "Saira";
+    margin-top: -1%;
+
+
+}
+
+.connect-Style h4 {
+    font-size: 150%;
+    /* font-size: 0%; */
+    font-weight: 100;
+}
+
+.input-form h1 {
+    font-size: 200%;
+    text-align: center;
+    margin-top: 3%;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color: palevioletred;
+}
+
+
+.input-form input {
+ margin: 0% 2% 2% 4%;
+ height: 6vh;
+ width: 40%;
+ font-size: 90%;
+ font-family: Saira;
+ padding: 0% 0% 0% 2%;
+}
+
+.input-form textarea{
+    width: 91%;
+    height: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-form button {
+    width: 20%;
+    height: 6vh;
+    margin: 3% 0% 0% 4.1%;
+    margin-top:-1%;
+}
+
+
+@media screen and (max-width:600px) {
+    .connect-Style h1 {
+        font-size: 200%;
+        font-weight: 300;
+        font-family: "Saira";
+    }
+    
+    .connect-Style h2  {
+        font-size: 170%;
+        font-weight: 300;
+        font-family: "Saira";
+    
+    }
+    
+    .connect-Style h3  {
+        font-size: 190%;
+        font-weight: 300;
+        font-family: "Saira";
+    
+    }
+    
+    .connect-Style h4 {
+        margin-top: 2%;
+        font-size: 110%;
+        font-weight: 100;
+    }
+
+    .input-form input {
+        font-size: 80%;
+        color: black;
+        margin-bottom:3%;
+    }
+    .input-form button {
+        width: 40%;
+        height: 6vh;
+        margin: 3% 0% 0% 4.1%;
+        margin-top:-1%;
+    }
+    
 }

@@ -10,6 +10,95 @@
 }
 .info {
     color: white;
-    margin-top: 0.5%;
+    font-size: 140%;
+    font-weight: 300;
+    margin-bottom: 2%;
     
+}
+.subscribe-btn  input {
+      width: 20%;
+      height: 5vh;
+      margin-bottom: 2%;      
+
+}
+
+.subscribe-btn button {
+    width: 10%;
+    height: 6vh;
+    margin-left: -2%;
+    background-color: greenyellow;
+    font-family: "Roboto";
+    font-weight: 800;
+    margin: 0% 0% 0% 0%;
+
+}
+
+
+.subscribe-btn img {
+  width: 3%;
+  margin: 0.5%  0.5%  -1% 0.5%;  
+
+}
+
+.subscribe-btn h4 {
+    margin-top: 1%;
+    font-size: 140%;
+     color: white;
+     font-weight: 300;
+     font-family: Saira;
+}
+
+
+
+@media screen and (max-width:600px) { 
+    .thought-Image {
+        width: 60%;
+    }
+    .heading {
+        font-size:180%;
+        color: white;
+        margin-top: 2%;
+        font-family: "Saira";
+    }
+    .info {
+        color: white;
+        margin-top: 0.5%;
+        font-size: 100%;
+        margin-bottom: 5%;
+        
+    }
+  
+    .subscribe-btn  input {
+        width: 50%;
+        height: 5vh;
+        margin-bottom: 2%;      
+  
+  }
+  
+  .subscribe-btn button {
+      width: 25%;
+      height: 5.4vh;
+      background-color: greenyellow;
+      font-family: "Roboto";
+      font-weight: 800;
+      border: 0px;
+  
+  }
+
+  
+.subscribe-btn img {
+    width: 10%;
+    margin: 1%  1% -3% 1%;  
+  
+  }
+  
+  .subscribe-btn h4 {
+      margin-top: 4%;
+      font-size: 100%;
+       color: white;
+       font-weight: 300;
+       font-family: Saira;
+  }
+  
+
 }
